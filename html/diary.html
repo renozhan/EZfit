@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Diary</title>
+</head>
+
+<body>
+    <div class="banner" id="banner">
+        <button class="menu-btn">☰</button>
+        <div class="date-picker">
+            <span id="current-date"></span>
+            <button id="opencalendar">
+                <img id="opencalimg" src="../svg/downtriangle.png" width="15" height="15">
+            </button>
+        </div>
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+
+    <div class="maincontent">
+        <div id="initblock" class="initblock">
+            <textarea rows="1" id="title" class="title"></textarea>
+            <textarea rows="5" id="inputtext" class="inputtext"></textarea>
+            <button id="savetext" class="savetext">o</button>
+        </div>
+        <button id="addtextarea">+</button>
+    </div>
+
+    <footer class="footer" id="footer">
+        <button class="home">
+            <h1>
+                <img src="../svg/home_gray.png" width="24" height="24">
+            </h1>
+        </button>
+        <button class="diary">
+            <h1>
+                <img src="../svg/diary_green.png" width="24" height="24">
+            </h1>
+        </button>
+        <button class="recipe">
+            <h1>
+                <img src="../svg/recipe_gray.png" width="24" height="24">
+            </h1>
+        </button>
+    </footer>
+
+</body>
+
+<script src="../js/app.js"></script>
+<noscript>You need to enable JavaScript.</noscript>
+
+</html>
